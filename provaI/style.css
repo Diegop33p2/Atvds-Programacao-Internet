@@ -1,0 +1,23 @@
+h1{
+    color:white
+  }
+  body {
+    background-image: url("imagens/1261802.jpg");
+    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  label{
+    color:white
+  }
+  .form{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }

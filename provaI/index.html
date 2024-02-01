@@ -1,0 +1,58 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+  <h1>CADASTRO REQUERIMENTOS</h1>
+<form method="POST" action="processa_form.php" enctype="multipart/form-data">
+<fieldset class="form">
+<label for="nome">Nome: </label>
+<input type="text" name="nome"><br>
+<label for="endereco">Endereço: </label>
+<input type="text" name="endereco"><br>
+<label for="cep">Cep: </label>
+<input type="text" name="cep"><br>
+<label for="data">Data de Nascimento: </label>
+<input type="date" name="data"><br>
+<label for="cidade">Cidade: </label>
+<input type="text" name="cidade"><br>
+<label for="estado">Estado: </label>
+<input type="text" name="estado"><br>
+<label for="sexo">Sexo:</label>
+<select name="sexo">
+  <option value="M">Homem</option>
+  <option value="F">Mulher</option>
+</select> <br>  
+<label for="matricula">Matricula: </label>
+<input type="text" name="matricula"><br>
+<label for="email">Email: </label>
+<input type="text" name="email"><br>
+<label for="sangue">Tipo Sanguineo: </label>
+<input type="text" name="sangue"><br>
+<label for="curso">Curso: </label>
+<input type="text" name="curso"><br>
+</fieldset>
+<h1>Processamento</h1>
+<fieldset class="form">
+<label for="assunto">Assunto: </label>
+<input type="text" name="assunto"><br>
+<label for="descricao">Descrição: </label><br>
+<textarea name="descricao" rows="8" cols="50">
+  Insira aqui uma descrição.
+</textarea> <br>
+<br>
+<label for="pdf">Selecione um PDF:</label>
+<input type="file" name="pdf" id="pdf" accept=".pdf" ><br><br>
+  
+<input type="submit" value="Enviar">
+  
+</fieldset>
+</form>
+
+  
+
+    
+  </body>
+</html>
